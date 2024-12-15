@@ -1,0 +1,60 @@
+html 
+    head 
+        title Rahul Dance Academy
+        style 
+            include ../static/style.css
+    body 
+        nav#navbar 
+            ul 
+                div#logo
+                    img(src="/static/img/img1.png", alt="")
+                    | RDA
+                li #[a(href = "/") Home]
+                li #[a(href = "/") About]
+                li #[a(href = "/") Services]
+                li #[a(href = "/") Class Info]
+                li #[a(href = "/") Contact Us]
+        section#introSection 
+            div Welcome to Rahul's Dance Academy 
+            div.small Eat Sleep Dance Repeat
+
+        section#missionSection 
+            h2 Our Mission 
+            div.card
+                h3 Dance Perfection
+                div.card-box
+                    div.card-img
+                        img(src="/static/img/img3.png", alt="")
+
+                    div.card-content
+                        p This is the best dance academy of the Universe
+            div.card
+                h3 Dance the way you like
+                div.card-box
+                    div.card-img
+                        img(src="/static/img/imgg.png", alt="")
+
+                    div.card-content
+                        p This is the best dance academy of the Universe
+            div.card
+                h3 Expert Teaching
+                div.card-box
+                    div.card-img
+                        img(src="/static/img/img7.png", alt="")
+
+                    div.card-content
+                        p This is the best dance academy of the Universe
+
+        section#sponsorSection 
+            h2 Our Sponsors 
+            div#sponsors
+                img(src="/static/img/apple1.png", alt="Sponsor Image" Class="spImage")
+                img(src="/static/img/ms1.png", alt="Sponsor Image" Class="spImage")
+                img(src="/static/img/hp1.png", alt="Sponsor Image" Class="spImage")
+                img(src="/static/img/skype1.png", alt="Sponsor Image" Class="spImage")
+
+        footer#footer 
+            | Copyright @ 2019 rahuldanceacademy.com | All rights reserved
+
+        script 
+            include ../static/index.js
